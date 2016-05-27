@@ -1,0 +1,19 @@
+{
+  "name": "pictionary",
+  "version": "1.0.0",
+  "description": "Thinkful node-socket pictionary exercise",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-wade/pictionary.git"
+  },
+  "author": "Jon Wade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jon-wade/pictionary/issues"
+  },
+  "homepage": "https://github.com/jon-wade/pictionary#readme"
+}
