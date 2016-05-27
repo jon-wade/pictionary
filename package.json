@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/jon-wade/pictionary/issues"
   },
-  "homepage": "https://github.com/jon-wade/pictionary#readme"
+  "homepage": "https://github.com/jon-wade/pictionary#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
 }
