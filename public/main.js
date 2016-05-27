@@ -59,6 +59,10 @@ var pictionary = function() {
 
     socket.on('draw', draw);
     socket.on('guess', showGuess);
+    socket.on('disconnect', function(message) {
+        console.log(message);
+        $('#error-message').text(message);
+    });
 };
 
 $(document).ready(function() {
