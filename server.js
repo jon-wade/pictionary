@@ -12,8 +12,11 @@ io.on('connect', function(socket) {
     console.log('client connected');
 
     socket.on('draw', function(position) {
-        console.log('broadcasting position');
         socket.broadcast.emit('draw', position);
+    });
+
+    socket.on('guess', function(guess) {
+        socket.broadcast.emit('guess', guess);
     });
 });
 
